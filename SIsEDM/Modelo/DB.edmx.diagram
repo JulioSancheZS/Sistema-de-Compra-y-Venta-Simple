@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e772d809c78b4e8f8eef0d69e9e552a4" Name="Diagram1" ZoomLevel="105" >
+        <EntityTypeShape EntityType="DB.Venta" Width="1.5" PointX="8.125" PointY="7.75" />
+        <EntityTypeShape EntityType="DB.Datos" Width="1.5" PointX="1.625" PointY="4.125" />
+        <EntityTypeShape EntityType="DB.Proveedor" Width="1.5" PointX="1.25" PointY="1" />
+        <EntityTypeShape EntityType="DB.Empleado" Width="1.5" PointX="5.25" PointY="5" />
+        <EntityTypeShape EntityType="DB.Cliente" Width="1.5" PointX="1.375" PointY="8" />
+        <EntityTypeShape EntityType="DB.DetalleCompra" Width="1.5" PointX="8.25" PointY="1.625" />
+        <EntityTypeShape EntityType="DB.Compra" Width="1.5" PointX="4" PointY="0.875" />
+        <EntityTypeShape EntityType="DB.DetalleVenta" Width="1.625" PointX="12" PointY="8" />
+        <EntityTypeShape EntityType="DB.Producto" Width="1.5" PointX="12" PointY="3.5" />
+        <EntityTypeShape EntityType="DB.Categoria" Width="1.5" PointX="12.25" PointY="0.5" />
+        <EntityTypeShape EntityType="DB.Marca" Width="1.5" PointX="16.125" PointY="3.125" />
+        <EntityTypeShape EntityType="DB.Modelo" Width="1.5" PointX="16" PointY="6.75" />
+        <AssociationConnector Association="DB.DatosProveedor" />
+        <AssociationConnector Association="DB.DatosCliente" />
+        <AssociationConnector Association="DB.DatosEmpleado" />
+        <AssociationConnector Association="DB.ProveedorCompra" />
+        <AssociationConnector Association="DB.EmpleadoCompra" />
+        <AssociationConnector Association="DB.CompraDetalleCompra" />
+        <AssociationConnector Association="DB.EmpleadoVenta" />
+        <AssociationConnector Association="DB.ClienteVenta" />
+        <AssociationConnector Association="DB.ProductoDetalleCompra" />
+        <AssociationConnector Association="DB.ProductoDetalleVenta" />
+        <AssociationConnector Association="DB.CategoriaProducto" />
+        <AssociationConnector Association="DB.MarcaProducto" />
+        <AssociationConnector Association="DB.ModeloProducto" />
+        <AssociationConnector Association="DB.FK_DetalleVenta" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
